@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import CSS Files -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!--Animation Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Fontawsome Library-->
+    <link rel="stylesheet" href="./style/all.min.css">
+    <!--Normalize Library-->
+    <link rel="stylesheet" href="./style/normalize.css">
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!-- End Import CSS Files -->
+
+    <title>xBe Tamplate Portfolio Module</title>
+</head>
+<body>
+    <div class="portfolio-module-1 module-portfolio  block">
+                <div class="container">
+                    <div class="globle-name-section">
+                        <h1>Project Name</h1>
+                        <p>Lorem ipsum dolor sit .</p>
+                    </div>
+                    <div class="img-container">
+                        <img src="./images/portfolio/flat.jpg" alt="">
+                    </div>
+                    <div class="module-content">
+                        <p class="explaine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam repudiandae nam reiciendis eum nemo, eius molestiae quia doloribus nostrum, ea officia? Reiciendis laborum rerum facilis ducimus? Deserunt, itaque amet.</p>
+                        <p class="contacts"><strong>Want this UI kit sample?</strong> You can download it for free, courtesy of <a href="">edubd.net</a>, or you can download it <a href="">here</a>.</p>
+                        <div class="meta">
+                            <p><strong>Date:</strong> July 31, 2022</p>
+                            <p><strong>Client:</strong> Web Designer Depot</p>
+                            <p><strong>Category:</strong> Graphic Design</p>
+                        </div>
+                        <button class="btn-portfolio">close project</button>
+                        <span class="close-portofolio-module"><i class="fa-solid fa-xmark"></i></span>
+                    </div>
+                </div>
+                </div>
+
+
+
+    <!-- Start Import JS Files -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
+    <script src="./js/jquerySourcsCode.js"></script>
+    <script src="./js/portofolioModule.js"></script>
+    <!-- End Import JS Files -->
+</body>
+</html>
